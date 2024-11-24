@@ -4,7 +4,7 @@ from sqlalchemy import Column, Integer, String, Boolean, Float
 
 class Transactions(Base):
     """Transactions class"""
-    __table_name__ = "transactions"
+    __tablename__ = "transactions"
 
     id = Column(Integer, primary_key=True, index=True)
     amount = Column(Float)
